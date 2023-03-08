@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div  className='text-center mt-[100px] mb-10'>
             <div className='flex items-center justify-center  '>
-                <div className='flex items-center justify-center space-x-5'>
+                <div className='flex items-center justify-center space-x-5 mb-4'>
                     <img src={`${facebook.src}`} alt="" className='w-4' />
                     <img src={`${github.src}`} alt="" className='w-4' />
                     <img src={`${instagram.src}`} alt="" className='w-4' />
@@ -18,7 +18,7 @@ const Footer = () => {
                     <img src={`${twitter.src}`} alt="" className='w-4' />
                 </div>
             </div>
-            <span className='mt-4 text-[16px] text-gray-400'>© Copyrights Innvo | All Rights Reserved</span>
+            <span className='text-[16px] text-gray-400' >© Copyrights Innvo | All Rights Reserved</span>
         </div>
     )
 }
